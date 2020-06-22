@@ -13,7 +13,7 @@
             <nav class="nav right">
                 <g-link class="nav__link" to="/">Works</g-link>
                 <g-link class="nav__link" to="/journal">Writings</g-link>
-                <g-link class="nav__link" to="mailto:contact@victorlucachi.ro">Hello</g-link>
+                <g-link class="nav__link" to="/contact">Hello</g-link>
             </nav>
         </div>
     </header>

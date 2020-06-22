@@ -4,7 +4,10 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "add-domain": "echo \"victorlucachi.ro\" > build/CNAME",
+    "deploy": "gh-pages -b master -d dist"
   },
   "dependencies": {
     "@gridsome/remark-prismjs": "0.3.0",

@@ -3,7 +3,7 @@
 
 module.exports = {
   siteName: "Victor Lucachi",
-  siteUrl: `https://www.victorlucachi.ro`,
+  siteUrl: 'https://www.victorlucachi.ro',
   host: "0.0.0.0",
   titleTemplate: "%s",
   siteDescription: "Jack of all trades master of none",

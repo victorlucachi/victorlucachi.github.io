@@ -1,6 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
+<<<<<<< HEAD
 admin_path: "/static/admin"
 webhook_url: 
 sections:
@@ -21,13 +22,21 @@ sections:
 - type: document
   path: data/theme.json
   label: Theme config
+=======
+admin_path: 
+webhook_url: 
+sections: 
+>>>>>>> 30763dfadf1ba4d3f4683ceb8263baf3ffbfad69
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
+<<<<<<< HEAD
   preview_output_directory: dist
+=======
+>>>>>>> 30763dfadf1ba4d3f4683ceb8263baf3ffbfad69
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"

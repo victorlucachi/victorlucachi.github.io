@@ -40,4 +40,5 @@ fields:
   config: {}
   label: Image gallery
 pages:
+- journal/forestry-test-post.md
 - journal/void40.md

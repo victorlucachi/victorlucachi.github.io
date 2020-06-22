@@ -5,7 +5,7 @@
         <h1 class="contact-title">Contact</h1>
         <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
       </div>
-      <form class="contact-form" name="contact">
+      <form class="contact-form" action="https://getform.io/f/a73c8e9e-36ca-437a-b4e0-1f74af84f785" method="POST" name="contact">
         <div class="sender-info">
           <div>
             <label for="name" class="label">Your name</label>
@@ -20,7 +20,7 @@
           <label for="message" class="label">Message</label>
           <textarea name="message"></textarea>
         </div>
-        <button class="button">Submit form</button>
+        <button tyepe="submit" class="button">Submit form</button>
       </form>
     </div>
   </Layout>

@@ -6,7 +6,6 @@
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "predeploy": "npm run build",
-    "add-domain": "echo \"victorlucachi.ro\" > build/CNAME",
     "deploy": "gh-pages -b master -d dist"
   },
   "dependencies": {

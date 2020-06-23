@@ -75,6 +75,7 @@ a {
 
 img {
   max-width: 100%;
+  box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.10);
 }
 
 .label {

@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .projects {
-  display: grid;
+  display:grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 4rem;
 }
@@ -41,13 +41,13 @@ export default {
   text-decoration: none;
 }
 .thumbnail {
-  height: 560px;
+  height: 500px;
   object-fit: cover;
   transition: all 0.15s ease;
   box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
 }
 .project-title {
-  font-size: 1rem;
+  font-size: 2rem;
   color: var(--color-contrast);
   margin: 2rem 0 1rem 0;
 }

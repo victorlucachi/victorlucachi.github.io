@@ -6,7 +6,7 @@ module.exports = {
   siteUrl: 'https://www.victorlucachi.ro',
   host: "0.0.0.0",
   titleTemplate: "%s",
-  siteDescription: "Jack of all trades master of none",
+  siteDescription: "Not a programmer, not a maker, not a designer. I just enjoy building stuff.",
   plugins: [
     {
       use: "@gridsome/source-filesystem",

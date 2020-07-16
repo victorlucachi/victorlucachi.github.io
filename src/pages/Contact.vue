@@ -3,7 +3,7 @@
     <div class="container contact-container">
       <div class="contact-header">
         <h1 class="contact-title">Hey, hello you!</h1>
-        <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
+        <p>Leave me a note with any questions that you might have, I'll get back to you as soon as possible.</p>
       </div>
       <form class="contact-form" action="https://getform.io/f/a73c8e9e-36ca-437a-b4e0-1f74af84f785" method="POST" name="contact">
         <div class="sender-info">

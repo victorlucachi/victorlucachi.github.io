@@ -49,6 +49,9 @@ h1 {
   letter-spacing: -0.01em;
 }
 
+p {
+  line-height: 1.6rem;
+}
 .layout {
   padding: 0;
 }

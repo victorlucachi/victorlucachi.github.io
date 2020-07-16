@@ -1,7 +1,7 @@
 ---
 thumbnail: "/uploads/void40/void40-isometric.jpg"
 title: VOID40
-date: 2019-16-07
+date: 2020-07-15
 categories:
 - mechanical keyboard
 - handwired

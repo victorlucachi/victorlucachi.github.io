@@ -1,6 +1,5 @@
 ---
 date: 2020-07-15
-author: Victor Lucachi
 title: VOID9 handwiring guide
 excerpt: Complete handwiring and flashing guide for the VOID9 Macropad
 image_gallery: []

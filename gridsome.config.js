@@ -2,11 +2,11 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Victor Lucachi",
+  siteName: "Victor Lucachi - Works and writings",
+  siteDescription: "Not a programmer, not a maker, not a designer. I just enjoy building stuff.",
   siteUrl: 'https://www.victorlucachi.ro',
   host: "0.0.0.0",
-  titleTemplate: "%s",
-  siteDescription: "Not a programmer, not a maker, not a designer. I just enjoy building stuff.",
+  titleTemplate: "%s // Victor Lucachi",
   plugins: [
     {
       use: "@gridsome/source-filesystem",

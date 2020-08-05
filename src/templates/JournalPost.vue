@@ -5,10 +5,6 @@
         <div class="journal-header">
           <h1 v-html="$page.post.title" class="journal-title" />
           <div class="journal-meta">
-            <div class="journal-author">
-              <span class="label">Author</span>
-              <span class="author-name" v-text="$page.post.author" />
-            </div>
             <div class="journal-date">
               <span class="label">Date</span>
               <div v-text="$page.post.date"/>
@@ -29,7 +25,6 @@
 query JournalPost ($path: String!) {
   post: journalPost (path: $path) {
     title
-    author
     date (format: "D. MMMM YYYY")
     timeToRead
     content

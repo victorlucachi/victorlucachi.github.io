@@ -9,4 +9,16 @@ export default function(Vue, { head }) {
   head.bodyAttrs = {
     class: settings.dark_mode ? "dark" : ""
   };
+
+  head.meta.push(
+    {
+      key: 'keywords',
+      name: 'keywords',
+      content: 'handwired, mechanical keyboard, product design'
+    },
+    {
+      name: 'author',
+      content: 'victorlucachi.ro'
+    }
+  )
 }

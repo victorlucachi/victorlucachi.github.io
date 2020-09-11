@@ -1,14 +1,15 @@
 ---
-thumbnail: "/uploads/void40/void40-isometric.jpg"
+thumbnail: "/uploads/void40.jpg"
 title: VOID40
 date: 2020-07-15
 categories:
-- mechanical keyboard
 - handwired
+- 40%
 project_bg_color: ''
 project_fg_color: ''
 
 ---
+
 To preface this, all of the pictures included in this post are renders of the actual product. The final result depends on the resolution and 3d printing method chosen, the post processing and so on.
 
 ![](/uploads/void40/VOID40-isometric.jpg)

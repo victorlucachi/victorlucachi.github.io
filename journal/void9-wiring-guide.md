@@ -7,11 +7,11 @@ image_gallery: []
 ---
 # VOID9
 
-Post incomplete; lacking descriptions for each step and no firmware flashing included for now. The images are pretty drescriptive themselves, but if you happen to stumble upon this page, you might want to come back at a later date for a more in depth guide.
+Post incomplete; lacking descriptions for each step and no firmware flashing included for now. The images are pretty descriptive by themselves, but if you happen to stumble upon this page, you might want to come back at a later date for a more in depth guide.
 
 BOM:
 - 9 Cherry MX style mechanical switches
-- 9 diodes (1N4148 in this case)
+- 9 diodes ([1N4148 in this case](https://www.tme.eu/ro/en/details/1n4148-dio/tht-universal-diodes/diotec-semiconductor/1n4148/))
 - 9 keycaps of choice
 - 1 Pro Micro (or clone)
 - 4 M3x10 Allen head bold (13mm overall length, 5,5mm diameter head)

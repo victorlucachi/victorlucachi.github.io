@@ -13,7 +13,6 @@
             <nav class="nav right">
                 <g-link class="nav__link" to="/">Works</g-link>
                 <g-link class="nav__link" to="/journal">Writings</g-link>
-                <g-link class="nav__link" to="/contact">Hello</g-link>
             </nav>
         </div>
     </header>
@@ -65,6 +64,7 @@ export default {
     font-size: 0.9rem;
     font-weight: 600;
     text-decoration: none;
+    font-style: normal;
     margin-top: 4px;
     margin-right: 3rem;
     padding-bottom: 4px;

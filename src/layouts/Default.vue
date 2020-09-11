@@ -29,7 +29,7 @@ body {
   --color-base-1: rgb(243, 243, 243);
   --color-contrast: rgb(0, 0, 0);
   --color-contrast-1: rgb(43, 43, 43);
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin:0;
   padding: 0;
   font-size: 16px;
@@ -39,7 +39,7 @@ body {
 }
 
 body.dark {
-  --color-base: rgb(0, 0, 0);
+  --color-base: rgb(28, 28, 28);
   --color-base-1: rgb(43, 43, 43);
   --color-contrast: rgb(255, 255, 255);
   --color-contrast-1: rgb(243, 243, 243);
@@ -47,13 +47,31 @@ body.dark {
 
 h1 {
   letter-spacing: -0.01em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
 }
 
 p {
-  line-height: 1.6rem;
+  font-size: 1.15rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 2rem;
 }
 .layout {
   padding: 0;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+ul {
+  line-height: 2rem;
 }
 
 .layout.sticky-header {
@@ -78,7 +96,8 @@ a {
 
 img {
   max-width: 100%;
-  box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.10);
+/*  box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.10); */
+  margin: 2rem 0;
 }
 
 .label {

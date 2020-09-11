@@ -5,6 +5,10 @@
         <div class="project-header">
           <h1 class="project-title" v-html="$page.post.title" />
           <div class="project-info">
+             <div class="year-container">
+              <span class="label">Date</span>
+              <div v-html="$page.post.date"/>
+            </div>           
             <div class="categories-container">
               <div class="categories">
                 <span class="label">Categories</span>
@@ -15,10 +19,6 @@
                   v-text="category"
                 />
               </div>
-            </div>
-            <div class="year-container">
-              <span class="label">Year</span>
-              <div v-html="$page.post.date"/>
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@
 query ProjectPost ($path: String!) {
   post: projectPost (path: $path) {
     title
-    date (format: "YYYY")
+    date (format: "D MMMM YYYY")
     content
     categories
     project_bg_color
@@ -62,7 +62,7 @@ export default {
 
 <style scoped>
 .project-container {
-  max-width: 960px !important;
+  max-width: 960px;
 }
 .project-header {
   padding: 20vh 0 4rem 0;

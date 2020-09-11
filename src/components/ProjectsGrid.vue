@@ -31,11 +31,12 @@ export default {
 .projects {
   display:grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
 }
 .project {
   grid-column: auto / span 2;
   text-align: center;
+  padding: 0 0 2rem 0;
 }
 .project-link {
   text-decoration: none;
@@ -49,7 +50,7 @@ export default {
 .project-title {
   font-size: 2rem;
   color: var(--color-contrast);
-  margin: 2rem 0 1rem 0;
+  margin: 1rem 0 1rem 0;
 }
 .categories {
   font-size: 0.8rem;

@@ -48,7 +48,7 @@ export default {
 
 <style scoped>
 .container.journal {
-  max-width: 960px;
+  max-width: 1200px;
 }
 .journal-hero {
   padding: 4rem 0;
@@ -74,7 +74,7 @@ export default {
   background-color: var(--color-base-1);
 }
 .journal-post:hover > * {
-  transform: translateX(4rem);
+  transform: translateX(2rem);
 }
 .journal-post h1,
 .journal-post h2 {

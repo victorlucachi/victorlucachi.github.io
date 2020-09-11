@@ -25,7 +25,7 @@
 query JournalPost ($path: String!) {
   post: journalPost (path: $path) {
     title
-    date (format: "D. MMMM YYYY")
+    date (format: "D MMMM YYYY")
     timeToRead
     content
   }

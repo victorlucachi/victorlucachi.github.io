@@ -3,7 +3,7 @@
     <div class="container contact-container">
       <div class="contact-header">
         <h1 class="contact-title">Hey, hello you!</h1>
-        <p>Leave me a note with any questions that you might have, I'll get back to you as soon as possible.</p>
+        <p>Leave me a note with any questions that you might have, I'll get back to you as soon as possible. Thanks!</p>
       </div>
       <form class="contact-form" action="https://getform.io/f/a73c8e9e-36ca-437a-b4e0-1f74af84f785" method="POST" name="contact">
         <div class="sender-info">
@@ -12,7 +12,7 @@
             <input type="text" name="name" />
           </div>
           <div>
-            <label for="email" class="label">Your email</label>
+            <label for="email" class="label">Your email address</label>
             <input type="email" name="email" />
           </div>
         </div>
@@ -20,7 +20,7 @@
           <label for="message" class="label">Message</label>
           <textarea name="message"></textarea>
         </div>
-        <button tyepe="submit" class="button">Submit form</button>
+        <button tyepe="submit" class="button">Submit</button>
       </form>
     </div>
   </Layout>
@@ -62,13 +62,13 @@ export default {
   margin: 0;
 }
 input:focus,textarea:focus {
-  border-color: var(--color-contrast-1);
+  border-color: var(--color-contrast);
 }
 input,textarea {
   background: transparent;
-  border: 1px solid var(--color-base-1);
+  border: 1px solid var(--color-contrast);
   outline: none;
-  border-radius: 0.3rem;
+  border-radius: 0.2rem;
   padding: 0.8rem 1rem;
   color: inherit;
   font-size: 1rem;
@@ -76,27 +76,31 @@ input,textarea {
 }
 textarea {
   resize: none;
-  height: 140px;
+  height: 240px;
 }
 .button {
-  color: var(--color-base);
-  background: var(--color-contrast);
-  outline: none;
-  border: 0;
-  font-size: 0.8rem;
+  background: var(--color-base);
+  border: 1px solid var(--color-contrast);
+  font-size: 1.15rem;
   padding: 0.8rem 1.6rem;
   border-radius: 0.3rem;
   margin-top: 2rem;
   cursor: pointer;
   transition: opacity 0.25s ease;
-  font-size: 500;
   letter-spacing: 0.035em;
 }
 .button:hover {
-  opacity: 0.6;
+  transition: all 0.15s ease;
+  box-shadow: 0 0px 20px 0px rgba(0,0,0,0.25);
 }
 .button:focus {
   border: 1px solid var(--color-base-1);
+}
+
+.label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 400;
 }
 </style>
 

@@ -32,7 +32,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin:0;
   padding: 0;
-  font-size: 16px;
+  font-size: 1.15rem;
   background: var(--color-base);
   color: var(--color-contrast);
   transition: background 0.5s ease;

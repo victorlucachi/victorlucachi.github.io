@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/void40.jpg"
+thumbnail: "/uploads/void-40.jpg"
 title: VOID40
 date: 2020-07-15
 categories:

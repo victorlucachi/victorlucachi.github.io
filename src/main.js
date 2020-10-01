@@ -23,7 +23,7 @@ export default function(Vue, { head }) {
     },
     {
       name: 'author',
-      content: 'victorlucachi.ro'
+      content: 'Victor Lucachi'
     }
   )
 }

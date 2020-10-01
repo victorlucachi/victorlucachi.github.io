@@ -20,7 +20,7 @@
           <label for="message" class="label">Message</label>
           <textarea name="message"></textarea>
         </div>
-        <button tyepe="submit" class="button">Submit</button>
+        <button type="submit" class="button">Submit</button>
       </form>
     </div>
   </Layout>
@@ -56,7 +56,7 @@ export default {
 }
 .sender-info > div {
   flex: 1;
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 .sender-info > div:last-of-type {
   margin: 0;
@@ -69,10 +69,11 @@ input,textarea {
   border: 1px solid var(--color-contrast);
   outline: none;
   border-radius: 0.2rem;
-  padding: 0.8rem 1rem;
+  padding: 1rem 1rem;
   color: inherit;
-  font-size: 1rem;
+  font-size: 1.15rem;
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 textarea {
   resize: none;
@@ -90,8 +91,8 @@ textarea {
   letter-spacing: 0.035em;
 }
 .button:hover {
-  transition: all 0.15s ease;
-  box-shadow: 0 0px 20px 0px rgba(0,0,0,0.25);
+  background: var(--color-contrast-1);
+  color: var(--color-base-1);
 }
 .button:focus {
   border: 1px solid var(--color-base-1);

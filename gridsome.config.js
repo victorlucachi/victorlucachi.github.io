@@ -31,6 +31,14 @@ module.exports = {
           externalLinksRel: ["nofollow", "noopener", "noreferrer"]
         }
       }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "showcase/**/*.md",
+        typeName: "Post",
+        resolveAbsolutePaths: true
+      }
     }
   ],
   transformers: {

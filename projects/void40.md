@@ -10,8 +10,6 @@ project_fg_color: ''
 
 ---
 
-## Preface
-
 To preface this, all of the pictures included in this post are renders of the actual product. The final result depends on the resolution and 3d printing method chosen, the post processing and so on.
 
 ![](/uploads/void40/VOID40-isometric.jpg)
@@ -19,7 +17,7 @@ To preface this, all of the pictures included in this post are renders of the ac
 ## Description
 The VOID40 is a 3d printed 40% ortholinear keyboard, inspired by the [Planck](https://olkb.com/collections/planck).
 
-Just as the Planck, the VOID40 has a 12x4 ortholinear layout and aims at delivering the same typing experience and ergonomics, but at a much lower cost.
+Just like the Planck, the VOID40 has a 12x4 ortholinear layout and aims at delivering the same typing experience and ergonomics, but at a much lower cost.
 
 The entire case is 3d printed and the switches are handwired into a matrix that uses an Arduino Pro Micro, based on the ATmega32u4 microcontroller, to run QMK, the feature rich, open source firmware, that powers many if not most hobby and enthusiast grade mechanical keyboards nowadays.
 
@@ -35,7 +33,7 @@ Once all of the screws are tightened the case is quite rigid, but because of the
 ## BOM
 - 47/48 diodes ([tme.eu](https://www.tme.eu/ro/en/details/1n4148-dio/tht-universal-diodes/diotec-semiconductor/1n4148/))
 - 47/48 cherry mx style switches
-- 24 AWG (0.2 mm2) wire
+- 24 AWG (0.5 mm) wire
 - Pro Micro
 - EC11 Rotary Encoder (optional / I used a 15mm EC11 clone, mounted to the plate using [this adapter](https://www.thingiverse.com/thing:3770166))
 - 4 M3x10 countersunk screws that go through the top case ([tme.eu](https://www.tme.eu/ro/en/details/b3x10_bn661/bolts/bossard/1250752/))

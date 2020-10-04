@@ -67,7 +67,7 @@ export default {
     text-decoration: none;
     font-style: normal;
     margin-top: 4px;
-    margin-right: 3rem;
+    margin-right: 1.8rem;
     padding-bottom: 4px;
     /* border-bottom: 1px solid; */
     border-color: transparent;

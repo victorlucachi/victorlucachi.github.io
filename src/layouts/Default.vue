@@ -51,8 +51,17 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  margin: 4rem 0 2rem 0;
+}
+
 h3 {
   font-weight: 700;
+}
+
+h5 {
+  font-weight: 400;
+  line-height: 1.5rem;
 }
 
 p {
@@ -60,9 +69,6 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 2rem;
-}
-.layout {
-  padding: 0;
 }
 
 a {
@@ -84,6 +90,24 @@ ul {
   padding: 0 2rem;
 }
 
+.label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.medium-zoom-image--opened {
+  padding: 0.8rem;
+}
+
+.medium-zoom-overlay {
+
+}
+
+.layout {
+  padding: 0;
+}
+
 @media (min-width: 860px) {
   .container {
     padding: 0 6rem;
@@ -98,11 +122,5 @@ img {
   max-width: 100%;
 /*  box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.10); */
   margin: 2rem 0;
-}
-
-.label {
-  display: block;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
 }
 </style>

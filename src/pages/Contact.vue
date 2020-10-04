@@ -3,7 +3,8 @@
     <div class="container contact-container">
       <div class="contact-header">
         <h1 class="contact-title">Hey, hello you!</h1>
-        <p>Leave me a note with any questions that you might have, I'll get back to you as soon as possible. Thanks!</p>
+        <p>First of all let me thank you for dropping by. Whatever it is that brought you here, thanks for the interest, I highly appreciate it!</p>
+        <p>Whatever questions you might have, drop me a line using the form below and I'll get back to you as soon as possible. Thanks again!</p>
       </div>
       <form class="contact-form" action="https://getform.io/f/a73c8e9e-36ca-437a-b4e0-1f74af84f785" method="POST" name="contact">
         <div class="sender-info">
@@ -13,12 +14,12 @@
           </div>
           <div>
             <label for="email" class="label">Your email address</label>
-            <input type="email" name="email" />
+            <input type="email" name="email" required/>
           </div>
         </div>
         <div class="message">
           <label for="message" class="label">Message</label>
-          <textarea name="message"></textarea>
+          <textarea name="message" required></textarea>
         </div>
         <button type="submit" class="button">Submit</button>
       </form>
@@ -104,4 +105,3 @@ textarea {
   font-weight: 400;
 }
 </style>
-

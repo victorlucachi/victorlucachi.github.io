@@ -14,32 +14,46 @@ The VOID9 is, as the name implies, a 9 key programmable macropad; it has a tiny 
         
 It features a 3x3 grid of keys that are mounted on a 3d printed, hand sanded to a smooth finish plate/case, soldered on a high quality custom PCB and powered by a Pro Micro that is running the QMK Firmware.
 
+![](/uploads/void9/pcb/void9_pcb_2.jpg)
+
 Every VOID9 will come assembled, with keycaps included, flashed and ready to use out of the box (micro usb cable not provided).
 
-![](/uploads/void9/pcb/void9_pcb_2.jpg)
+<div class="grid-container">
+<div class="grid-item">
+
+![](/uploads/void9/eigakai/IMG_3083.jpg)
+</div>
+<div class="grid-item">
+
+![](/uploads/void9/eigakai/IMG_3090.jpg)
+</div>
+<div class="grid-item">
+
+![](/uploads/void9/eigakai/IMG_3096.jpg)
+</div>
+</div>
 
 ## What the VOID9 isn't
 The biggest drawback of the VOID9 is the limited number of keys, but it quickly makes up for that in cuteness.
 
-All things considered, the VOID9 can do almost anything: powerful macros can be programmed, different layers (think FN keys) can be defined that give the user access to more than the nine physical keys, and to expand on that [AutoHotKey](AutoHotKey) can be used for even more functionality!
+All things considered, the VOID9 can do almost anything: powerful macros can be programmed, different layers (think FN keys) can be defined that give the user access to more than the nine physical keys, and to expand on that [AutoHotKey](https://www.autohotkey.com/) can be used for even more functionality!
 
 ## VIA Configurator support
-<div class="split">
-<div class="col-left">
-
 The macropad is fully programmable thanks to  [VIA Configurator](https://caniusevia.com/), and its intuitive, easy to use GUI; I will provide links to the [QMK Documentation](https://beta.docs.qmk.fm/) as well as assistance, if needed, to anyone that has issues with configuring the macropad according to their own needs.
 
-Due to the fact that the VOID9 is not officially supported by VIA, for the time being the macropad is detected thanks to a json definitions file, that has to be loaded every time the user wants to make changes to the keymap. Once the file is loaded the macropad can be plugged in and the keymap can be customized. 
-
-</div>
-<div class="col-right">
+<div class="grid-container">
+<div class="grid-item">
 
 ![](/uploads/void9/via_configurator1.png)
+
+</div>
+<div class="grid-item">
 
 ![](/uploads/void9/via_configurator.png)
 
 </div>
 </div>
+Due to the fact that the VOID9 is not officially supported by VIA, for the time being the macropad is detected thanks to a json definitions file, that has to be loaded every time the user wants to make changes to the keymap. Once the file is loaded the macropad can be plugged in and the keymap can be customized. 
 
 ## What the future holds
 If there's any hardware features that you'd like to see implemented, such as LEDs or a piezo buzzer, rotary encoder support, or anything else that crosses your mind, I'm here to listen; head over to the [contact page](https://victorlucachi.ro/contact) and leave me a note with what your thoughts are.

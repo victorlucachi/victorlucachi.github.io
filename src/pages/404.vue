@@ -1,8 +1,8 @@
 <template>
   <Layout>
-    <div class="container contact-container">
-      <div class="contact-header">
-        <h1 class="contact-title">Uh.. 404?</h1>
+    <div class="container fourohfour-container">
+      <div class="fourohfour-header">
+        <h1 class="fourohfour-title">Uh.. 404?</h1>
       </div>
     </div>
   </Layout>
@@ -12,21 +12,21 @@
 export default {
   metaInfo () {
     return {
-      title: '404'
+      title: '404 // This aint it'
     }
   }
 }
 </script>
 
 <style scoped>
-.contact-container {
+.fourohfour-container {
   max-width: 960px !important;
 }
-.contact-header {
+.fourohfour-header {
   /*padding: 2rem 0 4rem 0;*/
   padding: 20vh 0 4rem 0;
 }
-.contact-title {
+.fourohfour-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;

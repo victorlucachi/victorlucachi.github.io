@@ -11,7 +11,6 @@ project_fg_color: ''
 ---
 
 To preface this, all of the pictures included in this post are renders of the actual product. The final result depends on the resolution and 3d printing method chosen, the post processing and so on.
-
 ![](/uploads/void40/VOID40-isometric.jpg)
 
 ## Description

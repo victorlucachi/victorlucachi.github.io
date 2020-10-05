@@ -143,22 +143,17 @@ input,textarea,select {
   display: none; 
 }
 
-.split {
-  width: 100%;
-  display: flex;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
-.col-left {
-  width: 50%;
+.grid-container p img {
+  margin: 0;
 }
 
-.col-right {
-  width: 50%;
-  margin-left: 2rem;
-}
-
-.col-right img {
-  margin: .5rem 0;
+.grid-item {
+  margin: 0 0.5rem;
 }
 
 @media (max-width: 860px) {
@@ -185,6 +180,12 @@ input,textarea,select {
   }
 
   .contact-form {
+    margin: 0;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
     margin: 0;
   }
 }

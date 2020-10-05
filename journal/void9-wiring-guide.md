@@ -9,7 +9,7 @@ excerpt: A visual guide for handwiring, flashing and assembling the VOID9 Macrop
 
 The 3d models used in this handwiring guide can be downloaded either from [Thingiverse](https://www.thingiverse.com/thing:4222157) or [Github](https://github.com/victorlucachi/void9).
 
-Before we start putting things together, lets go over the bill of materials needed:
+Before we start putting things together, lets go over the bill of materials:
 
 - 3d printed case parts
 - 9 Cherry MX style mechanical switches
@@ -23,9 +23,9 @@ Before we start putting things together, lets go over the bill of materials need
 
 If you're feeling bold, or if you think that it could be useful, you can swap one (or more) keys for an [EC11](https://www.aliexpress.com/item/32872039030.html) rotary encoder. If you plan on doing that, you'll also need [this](https://www.thingiverse.com/thing:3770166) incredibly helpful 3d printed adapter and a [knob](https://www.aliexpress.com/item/4000094107137.html).
 
-Right now would be a good time to flash your Pro Micro; the VOID9 needs only six pins, but it's good practice to flash the controller before anything else, in order to avoid any unpleasant surprises (a broken controller) later in the process.
+Right now would be a good time to flash your Pro Micro; the VOID9 needs only six pins, but it's good practice to flash the controller before anything else, in order to avoid any unpleasant surprises (a broken controller) later on.
 
-Pro Micros (and clones) use Afafruits Caterina bootloader by default; when they are externally reset, by bridging the RST and GND pins, they start in bootloader mode and wait for 8 seconds before going back to user mode.
+Pro Micros (and clones) use Adafruits Caterina bootloader by default; when they are externally reset, by bridging the RST and GND pins, they start in bootloader mode and wait for 8 seconds before going back to user mode.
 
 After the firmware is compiled from [my fork of QMK](https://github.com/victorlucachi/qmk_firmware/tree/master/keyboards/handwired/void9), it can be flashed with [QMK Toolbox](https://qmk.fm/toolbox/), by selecting the .hex file, enabling the Auto-Flash option and resetting the controller via the RST and GND pins.
 
@@ -63,7 +63,6 @@ Once all of the diodes are soldered, the excess terminals that have no use and a
 ### 4. Pre-cutting the wires and stripping them for row/column wiring
 
 A total of six wires will be soldered from the matrix to the controller. In order to form columns, pieces of wire will be measured and stripped like the one in the images below. Take your time and make sure that the spacing is right, make it as tidy as you can.
-
 ![](/uploads/void9_guide/DSC_2883.jpg)
 ### 5. Wrapping the wires around the columns
 
@@ -72,7 +71,7 @@ The stripped parts of the wire will be looped around the pins of the switches, f
 
 ### 6. Soldering the column wires
 
-The step above needs to be repeated for each column of the macropad, and then soldered in.
+The step above needs to be repeated for each column of the macropad, and then soldered in. Any excess wire that is leftover on the last switch of the column will be trimmed off.
 ![](/uploads/void9_guide/DSC_2885.jpg)
 
 ### 7. Soldering the row wires
@@ -87,6 +86,8 @@ The wires from the matrix need to be soldered to their according pins on the Pro
                           ROW0 	  ROW1 	  ROW2 	  COLUMN0 	  COLUMN1 	  COLUMN2 	 
 
                    PIN 	   F4  	   F5  	   F6  	     D0   	     D1   	     D4   	 
+
+Any excess wire sticking out of the back of the controller will be trimmed off.
 ![](/uploads/void9_guide/DSC_2888.jpg)
 
 ### 9. Inserting the Pro Micro into its slot

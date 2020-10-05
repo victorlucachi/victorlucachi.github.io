@@ -39,6 +39,12 @@ module.exports = {
         typeName: "Post",
         resolveAbsolutePaths: true
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-11126444-6'
+      }
     }
   ],
   transformers: {

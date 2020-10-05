@@ -12,6 +12,7 @@ project_fg_color: ''
 
 ## Description
 The VOID16 Macropad is a handwired 4x4 pad that uses a Pro Micro as a controller.
+![VOID16 Overview](/uploads/void-16.jpg)
 
 ## BOM
 - 4 x M3x10 allen head screws for the bottom/top corners (13mm overall length, 5.5mm diameter head)

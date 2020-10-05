@@ -104,4 +104,15 @@ textarea {
   font-size: 1.15rem;
   font-weight: 400;
 }
+
+@media (max-width: 860px) {
+  .sender-info {
+    flex-direction: column;
+  }
+
+  .sender-info > div {
+    margin-right: 0;
+    margin-top: 1rem;
+  }
+}
 </style>

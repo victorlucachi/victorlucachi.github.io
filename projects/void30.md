@@ -14,6 +14,7 @@ project_fg_color: ''
 The VOID30 is a handwired 30% ortholinear keyboard that uses a Pro Micro as a controller.
 
 Two versions for the top part of the keyboard are included, one with a logo and one without it.
+![VOID30 Overview](/uploads/void-30.jpg)
 
 ## BOM
 - 4 x M3x10 countersunk screws for the plate

@@ -16,4 +16,3 @@ The PCB is somewhat compatible with the current version of the [VOID9](https://w
 My current plan is to adjust the 3d models as it follows: remove the slot from the bottom part of the case, add a bevel to the port because the controller sits further back when its soldered to the PCB, and switch to M2 screws that will thread deeper and have a little bit more bite into the upper part of the case.
 
 ![](/uploads/void9/pcb/void9_pcb_1.jpg)
-

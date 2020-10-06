@@ -12,7 +12,7 @@
 export default {
   metaInfo () {
     return {
-      title: 'This aint it.'
+      title: 'This aint it'
     }
   }
 }

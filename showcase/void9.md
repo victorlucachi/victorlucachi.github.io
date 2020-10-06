@@ -63,7 +63,7 @@ If you're interested in buying a VOID9, sign up below and I will notify you when
 
 The expected price for the VOID9 is around 50-60 Euro, with an additional 15 Euro in shipping*.
 
-If you're not interested in buying one of my macropads, you have a 3d printer and you're up for a little bit of DIY, all of the models present on this website can be downloaded from [Github](https://github.com/victorlucachi) or [Thingiverse](https://www.thingiverse.com/v0ld/designs).
+If you're not interested in buying one of my macropads, you have a 3d printer and you're up for a little bit of DIY, all of the models present on this website can be downloaded from [Github](https://github.com/victorlucachi/void9) or [Thingiverse](https://www.thingiverse.com/v0ld/designs).
 
 I would like to take a moment to say thank you if you've made it so far. I really appreciate the interest that you've taken either in the VOID9 or in any of my work.
 

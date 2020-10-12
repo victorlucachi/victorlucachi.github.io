@@ -143,6 +143,10 @@ input,textarea,select {
   display: none; 
 }
 
+.no-margin > h5 {
+  margin: 0;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;

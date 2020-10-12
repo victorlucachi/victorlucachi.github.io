@@ -33,6 +33,11 @@ Every VOID9 will come assembled, with keycaps included, flashed and ready to use
 </div>
 </div>
 
+<div class="no-margin">
+
+##### Shots by [eigakai](https://eigakai.ro/)
+</div>
+
 ## What the VOID9 isn't
 The biggest drawback of the VOID9 is the limited number of keys, but it quickly makes up for that in cuteness.
 
@@ -53,6 +58,7 @@ The macropad is fully programmable thanks to  [VIA Configurator](https://caniuse
 
 </div>
 </div>
+
 Due to the fact that the VOID9 is not officially supported by VIA, for the time being the macropad is detected thanks to a json definitions file, that has to be loaded every time the user wants to make changes to the keymap. Once the file is loaded the macropad can be plugged in and the keymap can be customized. 
 
 ## What the future holds

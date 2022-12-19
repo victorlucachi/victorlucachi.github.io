@@ -11,7 +11,6 @@
                 </g-link>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" to="/showcase/void9">VOID9</g-link>
                 <g-link class="nav__link" to="/">Works</g-link>
                 <g-link class="nav__link" to="/journal">Writings</g-link>
                 <g-link class="nav__link" to="/contact">Hello</g-link>

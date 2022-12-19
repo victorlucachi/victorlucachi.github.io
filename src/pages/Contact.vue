@@ -4,38 +4,11 @@
       <div class="contact-header">
         <h1 class="contact-title">Hey, hello you!</h1>
         <p>First of all let me thank you for dropping by. Whatever it is that brought you here, thanks for the interest, I highly appreciate it!</p>
-        <p>Whatever questions you might have, drop me a line using the form below and I'll get back to you as soon as possible. Thanks again!</p>
+        <p>I'm working on creating a Discord server to make it easier for us to provide support and connect with our community. I'll be sure to add the necessary links to our GitHub repositories so you can find them easily. Please stay tuned for more updates.</p>
       </div>
-      <form class="contact-form" action="https://getform.io/f/a73c8e9e-36ca-437a-b4e0-1f74af84f785" method="POST" name="contact">
-        <div class="sender-info">
-          <div>
-            <label for="name" class="label">Your name</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label for="email" class="label">Your email address</label>
-            <input type="email" name="email" required/>
-          </div>
-        </div>
-        <div class="message">
-          <label for="message" class="label">Message</label>
-          <textarea name="message" required></textarea>
-        </div>
-        <button type="submit" class="button">Submit</button>
-      </form>
     </div>
   </Layout>
 </template>
-
-<script>
-export default {
-  metaInfo () {
-    return {
-      title: 'Hello'
-    }
-  }
-}
-</script>
 
 <style scoped>
 .contact-container {

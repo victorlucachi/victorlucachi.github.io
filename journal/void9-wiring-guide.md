@@ -85,7 +85,7 @@ The wires from the matrix need to be soldered to their according pins on the Pro
 
                           ROW0 	  ROW1 	  ROW2 	  COLUMN0 	  COLUMN1 	  COLUMN2 	 
 
-                   PIN 	   F4  	   F5  	   F6  	     D0   	     D1   	     D4   	 
+                   PIN 	   F4  	   F5  	   F6  	     D1   	     D4   	     D0   	 
 
 Any excess wire sticking out of the back of the controller will be trimmed off.
 ![](/uploads/void9_guide/DSC_2888.jpg)
